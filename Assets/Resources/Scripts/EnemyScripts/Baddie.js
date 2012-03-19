@@ -85,7 +85,7 @@ function Die(){
 	if(wedge){
 	Instantiate(wedge, transform.position, transform.rotation);
 	wedge.rigidbody.velocity.y = -100;
-	wedge.rigidbody.AddForce (Vector3.up * -10);
+	wedge.rigidbody.AddForce (Vector3(20,20,0) * -10);
 
 	}
 

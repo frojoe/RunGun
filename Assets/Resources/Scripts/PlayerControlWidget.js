@@ -6,10 +6,16 @@ var myGrav = 5;
 var speed_increase_factor : float = 1;
 var coinsCollected:int = 0;
 var health : float = 10;
+var myGuns : GameObject[];
+var activeGun : int;
+
+
+
 
 function Start(){
 	//transform.velocity = Vector3(0,0,0);
 }
+
 function Update () {
 
 	//increasing the speed - just adding time to topspeed multiplied by factor
@@ -22,6 +28,36 @@ function Update () {
 	p1_control.SimpleMove( mySpeed+ Vector3(constant_velocity,0,0));
 	
 		//transform.rotation = Quaternion.identity;
+
+if (Input.GetMouseButton(0))
+{
+
+myGuns[activeGun].SendMessage("Fire");
+}
+
+if (Input.GetKeyDown("left")){
+print("Left");
+
+if(activeGun == 0){
+activeGun = (myGuns.Length - 1);
+}
+else{activeGun--;}
+
+
+}
+
+if (Input.GetKeyDown("right")){
+print("Right");
+
+if(activeGun == (myGuns.Length - 1)){
+
+activeGun = 0;
+
+}
+else{activeGun++;}
+
+}
+
 
  //CheckCollide();
 }
@@ -60,6 +96,9 @@ function collectCoin() {
 	
 	print("Coins collected = " + coinsCollected);
 }
+
+
+
 
 function ApplyDamage (damage : float) {
 

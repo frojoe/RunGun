@@ -1578,7 +1578,7 @@ mono_image_table:
 
 	.long 4
 	.asciz "Assembly-UnityScript-firstpass"
-	.asciz "54F10ED2-E035-4465-B888-297AC0323EB2"
+	.asciz "530BEFA1-2B67-47AB-A8BC-3A4D9616C60F"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -1623,7 +1623,7 @@ mono_aot_file_info:
 	.long 0,0,0,0,0
 .text
 mono_assembly_guid:
-	.asciz "54F10ED2-E035-4465-B888-297AC0323EB2"
+	.asciz "530BEFA1-2B67-47AB-A8BC-3A4D9616C60F"
 .text
 mono_aot_version:
 	.asciz "66"

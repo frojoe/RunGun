@@ -50,17 +50,19 @@ public class Projectile : MonoBehaviour {
 			thing.gameObject.SendMessage("ApplyDamage", 1F);
 			Destroy(gameObject);
 		}
-		
-		
-	    if(thing.gameObject.tag == "floor")
+	    else if(thing.gameObject.tag == "floor")
 		{	
 			Destroy(gameObject);
 		}
-		
-		if(thing.gameObject.tag == "item")
+		else if(thing.gameObject.tag == "item")
 		{	
 			thing.gameObject.SendMessage("Hit", 1F);
 			Destroy(gameObject);
 		}
-}
+		else if (thing.gameObject.tag == "coin")
+		{	
+			thing.gameObject.SendMessage("KnockdownCoin");
+			Destroy(gameObject);
+		}
+	}
 }

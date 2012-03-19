@@ -20,7 +20,7 @@ public class ShotgunProjectile : MonoBehaviour {
 		myTransform = transform;
 		originalPosition = transform.position;
 		shotgunRandomPosition = ( (Input.mousePosition ) + 
-		                         (new Vector3( (Random.Range(-50, 50)), (Random.Range(-50, 50)), 0) ) );
+		                         (new Vector3( (Random.Range(-30, 30)), (Random.Range(-30, 30)), 0) ) );
 		
 		ray = Camera.main.ScreenPointToRay (shotgunRandomPosition);
 		ProjectileSpeed = Random.Range(180,220);
@@ -39,7 +39,7 @@ public class ShotgunProjectile : MonoBehaviour {
 		
 		float distanceTraveled = Mathf.Sqrt(Mathf.Pow(myTransform.position.x - originalPosition.x, 2) + Mathf.Pow(myTransform.position.y - originalPosition.y, 2));
 		
-		if (distanceTraveled > 5000)
+		if (distanceTraveled > 30)
 			Destroy(gameObject);
 	}
 	void OnTriggerEnter(Collider thing){

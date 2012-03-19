@@ -8,9 +8,9 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
-		activeExecutable = 56676AE3120B0C44008480E4 /* Unity-iPhone */;
-		activeSDKPreference = iphoneos4.0;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Unity-iPhone */;
+		activeExecutable = 56676AE4120B0C44008480E4 /* Unity-iPhone-simulator */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 567B6254114A9F340000AA1F /* Unity-iPhone-simulator */;
 		codeSenseManager = 56676AFB120B0C54008480E4 /* Code sense */;
 		executables = (
 			56676AE3120B0C44008480E4 /* Unity-iPhone */,
@@ -75,8 +75,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 351390983;
-			PBXWorkspaceStateSaveDate = 351390983;
+			PBXPerProjectTemplateStateSaveDate = 351393176;
+			PBXWorkspaceStateSaveDate = 351393176;
 		};
 		sourceControlManager = 56676AFA120B0C54008480E4 /* Source Control */;
 		userBuildSettings = {

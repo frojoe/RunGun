@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		5671AAAF1212906B00ADB508 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5671AAAE1212906B00ADB508 /* Icon@2x.png */; };
-		5671AAB01212906B00ADB508 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5671AAAE1212906B00ADB508 /* Icon@2x.png */; };
 		567B6200014A9F340000AA1F /* Assembly-CSharp-firstpass.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7000E80637F100160D4 /* Assembly-CSharp-firstpass.dll.s */; };
 		567B6256114A9F340000AA1F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82DCFBC0E8000A5005D6AD8 /* MainWindow.xib */; };
 		567B6257114A9F340000AA1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA7410EACED0700D8A291 /* Default.png */; };
@@ -37,8 +35,6 @@
 		56B294931162A7DC000D6BBD /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BF95011153BAD000237820 /* Default-Portrait.png */; };
 		56B294941162A7E1000D6BBD /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BF95021153BAD000237820 /* Default-Landscape.png */; };
 		56B294951162A7E2000D6BBD /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BF95021153BAD000237820 /* Default-Landscape.png */; };
-		56B294991162A834000D6BBD /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BF95001153BAD000237820 /* Icon-iPad.png */; };
-		56B2949A1162A835000D6BBD /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BF95001153BAD000237820 /* Icon-iPad.png */; };
 		56BCBA390FCF049A0030C3B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */; };
 		56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FD43950ED4745200FE3770 /* CFNetwork.framework */; };
 		830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
@@ -49,7 +45,6 @@
 		83B2574F0E63025400468741 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2574E0E63025400468741 /* libiconv.2.dylib */; };
 		83DEA7430EACED0700D8A291 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA7410EACED0700D8A291 /* Default.png */; };
 		83DEA7440EACED0700D8A291 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA7420EACED0700D8A291 /* Icon.png */; };
-		8629776211E768C100FD9D9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8629776111E768C100FD9D9D /* Default@2x.png */; };
 		D82DCFC10E8000A5005D6AD8 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFB70E8000A5005D6AD8 /* AppController.mm */; };
 		D82DCFC20E8000A5005D6AD8 /* iPhone_target2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFB90E8000A5005D6AD8 /* iPhone_target2AppDelegate.m */; };
 		D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
@@ -93,12 +88,10 @@
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5671AAAE1212906B00ADB508 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		567B6273114A9F340000AA1F /* widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5682F4B10F3B34FF007A219C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		56BF95001153BAD000237820 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
 		56BF95011153BAD000237820 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		56BF95021153BAD000237820 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
 		56FD43950ED4745200FE3770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -110,7 +103,6 @@
 		83B2574E0E63025400468741 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = usr/lib/libiconv.2.dylib; sourceTree = SDKROOT; };
 		83DEA7410EACED0700D8A291 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		83DEA7420EACED0700D8A291 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		8629776111E768C100FD9D9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82DCFB60E8000A5005D6AD8 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = Classes/AppController.h; sourceTree = SOURCE_ROOT; };
 		D82DCFB70E8000A5005D6AD8 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppController.mm; path = Classes/AppController.mm; sourceTree = SOURCE_ROOT; };
@@ -190,16 +182,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				56BF95001153BAD000237820 /* Icon-iPad.png */,
 				56BF95011153BAD000237820 /* Default-Portrait.png */,
 				56BF95021153BAD000237820 /* Default-Landscape.png */,
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */,
 				5682F4B10F3B34FF007A219C /* MediaPlayer.framework */,
 				83DEA7410EACED0700D8A291 /* Default.png */,
-				8629776111E768C100FD9D9D /* Default@2x.png */,
 				83DEA7420EACED0700D8A291 /* Icon.png */,
-				5671AAAE1212906B00ADB508 /* Icon@2x.png */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
 				D8A1C7220E80637F000160D3 /* Libraries */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -336,9 +325,6 @@
 				83DEA7440EACED0700D8A291 /* Icon.png in Resources */,
 				56B294921162A7DC000D6BBD /* Default-Portrait.png in Resources */,
 				56B294941162A7E1000D6BBD /* Default-Landscape.png in Resources */,
-				56B294991162A834000D6BBD /* Icon-iPad.png in Resources */,
-				8629776211E768C100FD9D9D /* Default@2x.png in Resources */,
-				5671AAAF1212906B00ADB508 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +337,6 @@
 				567B6258114A9F340000AA1F /* Icon.png in Resources */,
 				56B294931162A7DC000D6BBD /* Default-Portrait.png in Resources */,
 				56B294951162A7E2000D6BBD /* Default-Landscape.png in Resources */,
-				56B2949A1162A835000D6BBD /* Icon-iPad.png in Resources */,
-				5671AAB01212906B00ADB508 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv6;
+				ARCHS = i386;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -446,8 +430,8 @@
 					"\"$(SRCROOT)/Libraries\"",
 				);
 				PRODUCT_NAME = widget;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphonesimulator4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -455,7 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv6;
+				ARCHS = i386;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -470,8 +454,8 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = widget;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphonesimulator4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -479,7 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv6;
+				ARCHS = i386;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -496,8 +480,8 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = widget;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphonesimulator4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -505,7 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv6;
+				ARCHS = i386;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -523,15 +507,15 @@
 					"\"$(SRCROOT)/Libraries\"",
 				);
 				PRODUCT_NAME = widget;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphonesimulator4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv6;
+				ARCHS = i386;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -544,14 +528,14 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphonesimulator4.0;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv6;
+				ARCHS = i386;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -564,7 +548,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-Wl,-S,-x";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphonesimulator4.0;
 			};
 			name = Release;
 		};

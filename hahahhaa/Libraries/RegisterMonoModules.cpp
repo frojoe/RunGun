@@ -5,7 +5,7 @@ extern "C"
 	typedef void* gpointer;
 	typedef int gboolean;
 #if !(TARGET_IPHONE_SIMULATOR)
-	const char*			UnityIPhoneRuntimeVersion = "3.2.0f4"; /* targetDevice = 2 */
+	const char*			UnityIPhoneRuntimeVersion = "3.2.0f4"; /* targetDevice = 1 */
 	void				mono_dl_register_symbol (const char* name, void *addr);
 	extern int 			mono_ficall_flag;
 	void				mono_aot_register_module(gpointer *aot_info);
